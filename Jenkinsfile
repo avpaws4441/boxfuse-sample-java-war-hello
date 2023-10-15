@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {	
-	            	sh 'rm -rf hello-world-war'
+	            	sh 'rm -rf boxfuse-sample-java-war-hello'
                 sh 'git clone https://github.com/avpaws4441/boxfuse-sample-java-war-hello.git'
             }
         }
