@@ -14,7 +14,7 @@ pipeline {
         } 
 	stage('Deploy') {
             steps {		
-                sh 'sudo cp $WORKSPACE/target/hello-world-war-2.0.0.war /opt/apache-tomcat-10.1.13/webapps'
+                sh 'sudo cp $WORKSPACE/target/boxfuse-sample-java-war-hello/ /opt/apache-tomcat-10.1.13/webapps'
             }
         }
 	    
